@@ -121,7 +121,6 @@ article h2 {
 }
 
 article p {
-    line-height: 1.75;
     color: rgba(255, 215, 242, 0.85);
     margin-bottom: 10px;
 }
@@ -168,7 +167,6 @@ mark {
 }
 
 time {
-    font-size: 0.75rem;
     color: rgba(255, 100, 128, 0.7);
     margin-bottom: 8px;
 }
