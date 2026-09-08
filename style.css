@@ -29,9 +29,6 @@ header,nav,main,footer {
 }
 
 header {
-    background: rgba(255, 255, 255, 0.06);
-    border: 1px solid rgba(255, 255, 255, 0.12);
-    border-radius: 16px;
     display: flex;
     align-items: center;
     gap: 20px;
@@ -50,11 +47,7 @@ header h1 {
 
 
 
-nav {
-    background: #ffffff0f;
-    border: 1px solid rgba(255, 255, 255, 0.12);
-    border-radius: 16px;
-}
+
 
 nav ul {
     list-style: none;
@@ -78,9 +71,6 @@ nav ul li a:hover {
 }
 
 main {
-    background: rgba(255, 255, 255, 0.06);;
-    border: 1px solid rgba(255, 255, 255, 0.12);
-    border-radius: 16px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -163,8 +153,6 @@ time {
 
 aside {
     width: 30%;
-    background: rgba(255, 255, 255, 0.05);
-    border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 12px;
     padding: 20px;
 }
@@ -226,6 +214,12 @@ address a {
 
 
 @media (max-width: 600px) {
+
+    .glass{
+     background: rgba(4, 26, 4, 0.06);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    border-radius: 16px;
+    }
 
     body {
         background: linear-gradient(135deg, #0a1f0a, #102e10);
