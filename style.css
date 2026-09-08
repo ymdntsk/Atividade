@@ -6,7 +6,7 @@
  body {
      width: 100%;
      min-height: 100vh;
-     background: linear-gradient(135deg, #0d0d1a 0%, #1a0a2e 50%, #0a1628 100%);
+     background: linear-gradient(135deg, #1a0d1a 0%, #2e0a29 50%, #280a14 100%);
      padding: 24px 60px;
      display: flex;
      justify-content: center;
@@ -14,7 +14,7 @@
      flex-direction: column;
      gap: 14px;
      font-family: 'Inter', sans-serif;
-     color: #e8e0f0;
+     color: #f0e0e8;
  }
 
  .glass {
@@ -45,14 +45,14 @@
  header h1 {
      font-family: 'Rajdhani', sans-serif;
      font-weight: 700;
-     color: #c9a0ff;
+     color: #ffa0d4;
  }
 
  header h1 span {
      display: block;
      font-family: 'Inter', sans-serif;
      font-weight: 400;
-     color: rgba(200, 180, 255, 0.6);
+     color: rgba(255, 180, 219, 0.6);
      margin-top: 2px;
  }
 
@@ -71,7 +71,7 @@
 
  nav ul li a {
      text-decoration: none;
-     color: rgba(200, 180, 255, 0.75);
+     color: rgba(255, 180, 249, 0.75);
      font-weight: 600;
      padding: 6px 14px;
      border-radius: 8px;
@@ -80,7 +80,7 @@
 
  nav ul li a:hover {
      background: rgba(160, 100, 255, 0.15);
-     color: #c9a0ff;
+     color: #ffa0df;
  }
 
  main {
@@ -95,7 +95,7 @@
  }
 
  main>p {
-     color: rgba(200, 150, 255, 0.6);
+     color: rgba(255, 150, 195, 0.6);
      min-width: 100%;
      font-style: italic;
      border-bottom: 1px solid rgba(255, 255, 255, 0.08);
@@ -113,19 +113,19 @@
  article h2 {
      font-family: 'Rajdhani', sans-serif;
      font-weight: 700;
-     color: #c9a0ff;
+     color: #ffa0ee;
      margin-bottom: 6px;
  }
 
  article p {
      line-height: 1.75;
-     color: rgba(230, 215, 255, 0.85);
+     color: rgba(255, 215, 242, 0.85);
      margin-bottom: 10px;
  }
 
  section {
-     background: rgba(160, 100, 255, 0.06);
-     border-left: 2px solid rgba(160, 100, 255, 0.4);
+     background: rgba(255, 100, 165, 0.06);
+     border-left: 2px solid rgba(255, 100, 242, 0.4);
      border-radius: 0 8px 8px 0;
      padding: 14px 16px;
      margin-top: 14px;
@@ -135,7 +135,7 @@
  section h3 {
      font-family: 'Rajdhani', sans-serif;
      font-weight: 700;
-     color: rgba(200, 160, 255, 0.9);
+     color: rgba(255, 160, 209, 0.9);
      margin-bottom: 8px;
  }
 
@@ -146,27 +146,27 @@
 
  figure img {
      border-radius: 10px;
-     border: 1px solid rgba(160, 100, 255, 0.3);
+     border: 1px solid rgba(255, 100, 154, 0.3);
      display: block;
      margin: 0 auto;
  }
 
  figcaption {
-     color: rgba(200, 160, 255, 0.5);
+     color: rgba(255, 160, 206, 0.5);
      margin-top: 6px;
      font-style: italic;
  }
 
  mark {
-     background: rgba(160, 100, 255, 0.2);
-     color: #c9a0ff;
+     background: rgba(255, 100, 141, 0.2);
+     color: #ffa0e9;
      padding: 0 3px;
      border-radius: 3px;
  }
 
  time {
      font-size: 0.75rem;
-     color: rgba(160, 100, 255, 0.7);
+     color: rgba(255, 100, 128, 0.7);
      margin-bottom: 8px;
  }
 
@@ -181,7 +181,7 @@
  aside h3 {
      font-family: 'Rajdhani', sans-serif;
      font-weight: 700;
-     color: rgba(200, 160, 255, 0.9);
+     color: rgba(255, 160, 201, 0.9);
      margin-bottom: 12px;
      padding-bottom: 8px;
      border-bottom: 1px solid rgba(255, 255, 255, 0.08);
@@ -198,12 +198,12 @@
 
  aside ul li a {
      text-decoration: none;
-     color: rgba(210, 190, 255, 0.7);
+     color: rgba(255, 190, 208, 0.7);
      line-height: 1.4;
  }
 
  aside ul li a:hover {
-     color: #c9a0ff;
+     color: #ffa0f9;
  }
 
  footer {
@@ -216,7 +216,7 @@
  }
 
  footer>p {
-     color: rgba(200, 160, 255, 0.55);
+     color: rgba(255, 160, 188, 0.55);
  }
 
  address {
@@ -225,11 +225,11 @@
      border-radius: 10px;
      padding: 14px 18px;
      font-style: normal;
-     color: rgba(210, 190, 255, 0.7);
+     color: rgba(255, 190, 216, 0.7);
  }
 
  address a {
-     color: #c9a0ff;
+     color: #ffa0a5;
      text-decoration: none;
  }
 
